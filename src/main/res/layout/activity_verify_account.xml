@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.csa.cashsasa.controller.VerifyAccountActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/login_scroll_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@id/login_scroll_2"
+        tools:layout_editor_absoluteX="8dp"
+        tools:ignore="MissingConstraints"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/login_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/login_logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/login_scroll_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        android:layout_alignParentBottom="true"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="50dp"
+            >
+
+            <TextView
+                android:id="@+id/account_info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/verify_account"
+                android:textSize="@dimen/default_text_size"
+                android:textColor="@color/colorPrimaryDark2"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                />
+
+
+
+            <ProgressBar
+                android:id="@+id/check_sms_progress"
+                android:theme="@style/ProgressBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="100dp"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginStart="@dimen/margin_left"
+                android:layout_marginRight="@dimen/margin_left"
+                android:layout_marginEnd="@dimen/margin_left"
+                android:layout_below="@id/account_info_text"
+                android:max="100"
+                style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
+
+
+

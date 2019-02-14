@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:background="@drawable/icon_btn_border">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/briefing_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/card_right"
+        android:layout_marginLeft="@dimen/card_left"
+        android:layout_marginRight="@dimen/card_right"
+        android:layout_marginStart="@dimen/card_left"
+        android:theme="@style/MyCardViewStyle">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/loan_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:drawablePadding="@dimen/card_between"
+                android:drawableLeft="@drawable/ic_date_range_black_24dp"
+                android:drawableStart="@drawable/ic_date_range_black_24dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:textSize="@dimen/default_text_size" />
+
+            <TextView
+                android:id="@+id/loan_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:drawablePadding="@dimen/card_between"
+                android:drawableLeft="@drawable/ic_check_circle_black_24dp"
+                android:drawableStart="@drawable/ic_check_circle_black_24dp"
+                android:drawableTint="@color/colorSuccess"
+                android:textColor="@color/colorSuccess"
+                android:textSize="@dimen/default_text_size" />
+
+            <TextView
+                android:id="@+id/borrowed_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/loan_date"
+                android:layout_marginTop="@dimen/margin_between"
+                android:text="@string/amount_borrowed_text"
+                android:textSize="@dimen/default_text_size" />
+
+            <TextView
+                android:id="@+id/borrowed_amount_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/loan_date"
+                android:layout_marginLeft="@dimen/margin_between"
+                android:layout_marginStart="@dimen/margin_between"
+                android:layout_marginTop="@dimen/margin_between"
+                android:layout_toEndOf="@id/borrowed_amount"
+                android:layout_toRightOf="@id/borrowed_amount"
+                android:text="Ksh. 600"
+                android:textSize="@dimen/default_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/loan_int"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/borrowed_amount"
+                android:layout_marginTop="@dimen/margin_between"
+                android:text="@string/loan_interest"
+                android:textSize="@dimen/default_text_size" />
+
+            <TextView
+                android:id="@+id/loan_int_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/borrowed_amount"
+                android:layout_marginLeft="@dimen/margin_between"
+                android:layout_marginStart="@dimen/margin_between"
+                android:layout_marginTop="@dimen/margin_between"
+                android:layout_toEndOf="@id/borrowed_amount"
+                android:layout_toRightOf="@id/borrowed_amount"
+                android:text="Ksh. 600"
+                android:textSize="@dimen/default_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/insurance_int"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/loan_int"
+                android:layout_marginTop="@dimen/margin_between"
+                android:text="@string/insurance_interest"
+                android:textSize="@dimen/default_text_size" />
+
+            <TextView
+                android:id="@+id/insurance_int_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/loan_int"
+                android:layout_marginLeft="@dimen/margin_between"
+                android:layout_marginStart="@dimen/margin_between"
+                android:layout_marginTop="@dimen/margin_between"
+                android:layout_toEndOf="@id/borrowed_amount"
+                android:layout_toRightOf="@id/borrowed_amount"
+                android:text="Ksh. 600"
+                android:textSize="@dimen/default_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/payable_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/insurance_int"
+                android:layout_marginTop="@dimen/margin_between"
+                android:text="@string/amount_payable_text"
+                android:textSize="@dimen/default_text_size" />
+
+            <TextView
+                android:id="@+id/payable_amount_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/insurance_int"
+                android:layout_marginLeft="@dimen/margin_between"
+                android:layout_marginStart="@dimen/margin_between"
+                android:layout_marginTop="@dimen/margin_between"
+                android:layout_toEndOf="@id/payable_amount"
+                android:layout_toRightOf="@id/payable_amount"
+                android:text="Ksh. 759"
+                android:textSize="@dimen/default_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/loan_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/payable_amount"
+                android:layout_marginTop="@dimen/margin_between"
+                android:text="@string/loan_balance"
+                android:textSize="@dimen/default_text_size" />
+
+            <TextView
+                android:id="@+id/loan_balance_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/payable_amount"
+                android:layout_marginLeft="@dimen/margin_between"
+                android:layout_marginStart="@dimen/margin_between"
+                android:layout_marginTop="@dimen/margin_between"
+                android:layout_toEndOf="@id/loan_balance"
+                android:layout_toRightOf="@id/loan_balance"
+                android:text="Ksh. 759"
+                android:textSize="@dimen/default_text_size"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

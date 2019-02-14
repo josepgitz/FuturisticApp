@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">CashSasa</string>
+    <string name="pin_content_desc">PIN input field</string>
+    <string name="pin_label_text">PIN</string>
+    <string name="country_hint">Select Country</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="email">Email Address</string>
+    <string name="national_id">National ID</string>
+    <string name="phone_number">M-PESA Number</string>
+    <string name="password">Password (4-Digit PIN)</string>
+    <string name="next_btn">Next</string>
+    <string name="prev_btn">Back</string>
+    <string name="finish_btn">Finish</string>
+    <string name="login_btn">Login</string>
+    <string name="reg_btn">Register</string>
+    <string name="tlc">I Agree to Terms and Conditions</string>
+    <string name="help_text_phone">(M-PESA number used on this device)</string>
+    <string name="reg_info">Registration Error Occurred</string>
+    <string name="id_exists">
+        National ID you entered has already been used. \n\n
+        <b>Do you have an account already?</b>
+    </string>
+    <string name="phone_exists">
+        Phone number you entered has already been used. \n\n
+        <b>Do you have an account already?</b>
+    </string>
+    <string name="email_exists">
+        Email Address you entered has already been used. \n\n
+        <b>Do you have an account already?</b>
+    </string>
+    <string name="invalid_phone_number">You have entered incorrect phone number</string>
+    <string name="not_mpesa_number">Please enter your correct mpesa number</string>
+    <string name="net_error">Network Error Occurred. Try again Later</string>
+    <string name="reg_process">Registration Process</string>
+    <string name="phone_confirm">Phone Number Confirmation</string>
+    <string name="phone_confirm_error">Phone Number does not belong to this device.</string>
+    <string name="phone_confirm_info">A verification code has been sent to phone number</string>
+    <string name="verify_btn"> Verify  </string>
+    <string name="forgot_pin">Forgot your pin ?</string>
+    <string name="reset_pin">Reset Pin</string>
+    <string name="reset_pin_label">Enter ID Number</string>
+
+    <string name="no_loan_data">You do not have any loan</string>
+
+    <string name="cannot_close_app">Cannot close CashSasa. Operation in progress</string>
+
+    <string name="verify_account_error">Verification Error</string>
+    <string name="verify_account_error_text">
+        Account verification code has not been found on this device. Please ensure your account\'s phone
+         number belongs to this device.
+    </string>
+    <string name="verify_account">Please wait.. Verifying your account</string>
+    <string name="verify_phone">Please wait.. Verifying your phone number</string>
+    <string name="account_setup">Please wait.. setting up your account</string>
+
+    <string name="verify_account_success">Verification Successful</string>
+    <string name="verify_account_success_text">
+        Your account has been verified successfully. Please reset your pin to activate your account. Thank you
+    </string>
+
+    <string name="close_app_head">Exit CashSasa</string>
+    <string name="close_app_text">Do you want to close CashSasa ?</string>
+
+    <string name="restore_head">Account Restore</string>
+    <string name="pin_reset_success">Reset Successful</string>
+    <string name="pin_reset_none">Pin Reset</string>
+    <string name="pin_reset_error_text">Network error occurred. Please try again later</string>
+
+    <string name="register_head">Create Account</string>
+    <string name="roll_back_changes">Roll Back Request</string>
+    <string name="rolling_back_success">Registration process roll back successful. Please register again with your phone number. Thank You.</string>
+
+    <string name="loan_history_text">LOAN STATEMENTS</string>
+    <string name="apply_loan_text">APPLY LOAN</string>
+    <string name="pay_loan_text">PAY LOAN</string>
+    <string name="faqs_text">FAQs</string>
+
+    <string name="font_family">serif-monospace</string>
+
+    <string name="apply_loan_header">Loan Application</string>
+    <string name="loan_label">Enter Loan Amount</string>
+    <string name="loan_pay_label">Enter Amount To Pay</string>
+    <string name="loan_empty">Please enter loan amount</string>
+    <string name="tc_empty">Please accept terms and conditions</string>
+    <string name="loan_amount_error">Incorrect Loan Amount</string>
+    <string name="another_loan_text">Change Loan Amount</string>
+    <string name="another_pay_text">Change Pay Amount</string>
+    <string name="loan_amount_error_text">Your loan amount must be greater than 500 and less than 2,000</string>
+    <string name="loan_amount_0_text">Loan amount cannot be less than 500. Please enter another amount</string>
+    <string name="verify_loan">Loan Details</string>
+    <string name="accept_loan">Accept</string>
+    <string name="reject_loan">Cancel</string>
+    <string name="amount_borrowed_text">Amount Borrowed :</string>
+    <string name="loan_interest">Loan Interest :</string>
+    <string name="insurance_interest">Insurance Interest :</string>
+    <string name="amount_payable_text">Amount Payable :</string>
+    <string name="payable_period_text">Payable Period</string>
+    <string name="payable_period_value">1 Month</string>
+    <string name="loan_applied_success">Loan Processed Successfully</string>
+    <string name="loan_applied_success_text">Your loan will be disbursed shortly. Thanks for using CashSasa.</string>
+    <string name="loan_applied_error">Loan Processing Failed</string>
+    <string name="loan_applied_error_text">Please try again later. Sorry for the inconvenience</string>
+
+    <string name="process_loan">Processing Loan</string>
+    <string name="outstanding_loan">Outstanding Loan Balance</string>
+    <string name="you_have_loan_title">Outstanding Loan</string>
+    <string name="you_have_loan_text">You have an outstanding loan balance. Please pay your loan to qualify for another loan. Thank you.</string>
+
+    <string name="loan_history_header">Loan Statements</string>
+    <string name="loan_balance">Outstanding Balance :</string>
+    <string name="loan_borrow_date">Date Borrowed :</string>
+    <string name="paid_loan">Paid</string>
+    <string name="pending_loan">Not Paid</string>
+    <string name="partial_loan">Partially Paid</string>
+
+    <string name="pay_loan_header">Loan Payment</string>
+    <string name="pay_loan_text_btn">Pay Loan</string>
+    <string name="no_loan_header">No Outstanding Loan</string>
+    <string name="no_loan_text">You do not have an outstanding loan balance.</string>
+    <string name="pay_loan_limit_head">Incorrect Pay Amount</string>
+    <string name="pay_loan_limit_text">Please pay at least Ksh. 50 for your outstanding loan balance. Thank you.</string>
+
+    <string name="pay_loan_heading">Payment Successful</string>
+    <string name="pay_loan_error">Payment Failed</string>
+    <string name="pay_loan_error_text">Unable to pay your loan. Please try again later.</string>
+    <string name="pay_loan_full">
+        Loan balance has been <b>Fully</b> settled. Thanks for using CashSasa. \n\n
+
+        (<b>Any excess amount will be used to pay your next loan</b>)
+    </string>
+    <string name="pay_loan_partial">Loan balance has been <b>Partially</b> settled. Thanks for using CashSasa</string>
+
+
+    <string name="faqs">FAQs</string>
+    <string name="increase_limit">How to increase loan limit</string>
+    <string name="increase_limit_text">
+        1. Ensure you pay your outstanding loan in time \n\n
+        2. Do not erase your mobile money transactions messages e.g MPESA
+    </string>
+
+    <string name="account_setup_head">Account Set Up</string>
+    <string name="account_setup_text">Account set up finished successfully</string>
+    <string name="account_setup_btn">Set Up Account</string>
+    <string name="account_setup_info">
+        Welcome. An account with phone number below is ready for set up. Be patient
+    </string>
+
+    <string name="login_head">Login Process</string>
+    <string name="login_info">Incorrect password</string>
+
+    <!-- Countries Codes -->
+    <string name="Kenya">+254</string>
+
+    <!--Countries List -->
+    <string-array name="countries">
+        <item>Kenya</item>
+    </string-array>
+
+    <string-array name="countries_codes">
+        <item>+254</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

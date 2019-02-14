@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.csa.cashsasa.controller.FaqsActivity">
+
+    <include
+        android:id="@+id/home_toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/limit_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/home_toolbar"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_marginTop="15dp"
+        tools:ignore="MissingConstraints"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:background="@drawable/icon_btn_border">
+
+
+            <TextView
+                android:id="@+id/loan_increase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_between"
+                android:layout_marginLeft="@dimen/margin_between"
+                android:text="@string/increase_limit"
+                android:textStyle="bold"
+                android:padding="@dimen/card_between"
+                android:textSize="@dimen/text_size"
+                android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_down_black_24dp"
+                android:drawablePadding="@dimen/icons_padding_between"
+                android:onClick="toggle_contents"/>
+
+            <TextView
+                android:id="@+id/loan_increase_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_between"
+                android:layout_marginLeft="@dimen/margin_between"
+                android:layout_below="@id/loan_increase"
+                android:layout_marginTop="@dimen/margin_between"
+                android:text="@string/increase_limit_text"
+                android:padding="@dimen/card_between"
+                android:textSize="@dimen/default_text_size"
+                />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

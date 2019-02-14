@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.csa.cashsasa.controller.ApplyActivity">
+
+    <TextView
+        android:id="@+id/amount_borrowed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_between"
+        android:textSize="@dimen/default_text_size"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/amount_borrowed_text"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_between"
+        android:layout_marginEnd="@dimen/margin_between"
+        android:layout_marginBottom="@dimen/margin_between"/>
+
+    <TextView
+        android:id="@+id/amount_borrowed_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_between"
+        android:textSize="@dimen/default_text_size"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/amount_borrowed"
+        android:layout_marginRight="@dimen/margin_left"
+        android:layout_marginEnd="@dimen/margin_left"
+        android:layout_marginBottom="@dimen/margin_between"
+        android:layout_toEndOf="@id/amount_borrowed" />
+
+    <TextView
+        android:id="@+id/amount_payable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amount_borrowed"
+        android:layout_marginTop="@dimen/margin_between"
+        android:textSize="@dimen/default_text_size"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/amount_payable_text"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_between"
+        android:layout_marginEnd="@dimen/margin_between"
+        android:layout_marginBottom="@dimen/margin_between"/>
+
+    <TextView
+        android:id="@+id/amount_payable_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amount_borrowed"
+        android:layout_marginTop="@dimen/margin_between"
+        android:textSize="@dimen/default_text_size"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/amount_payable"
+        android:layout_marginRight="@dimen/margin_left"
+        android:layout_marginEnd="@dimen/margin_left"
+        android:layout_marginBottom="@dimen/margin_between"
+        android:layout_toEndOf="@id/amount_payable" />
+
+    <TextView
+        android:id="@+id/period_payable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amount_payable"
+        android:layout_marginTop="@dimen/margin_between"
+        android:textSize="@dimen/default_text_size"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/payable_period_text"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_between"
+        android:layout_marginEnd="@dimen/margin_between"
+        android:layout_marginBottom="@dimen/margin_between"/>
+
+    <TextView
+        android:id="@+id/period_payable_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amount_payable"
+        android:layout_marginTop="@dimen/margin_between"
+        android:textSize="@dimen/default_text_size"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/period_payable"
+        android:layout_marginRight="@dimen/margin_left"
+        android:layout_marginEnd="@dimen/margin_left"
+        android:layout_marginBottom="@dimen/margin_between"
+        android:layout_toEndOf="@id/period_payable" />
+
+
+
+
+</RelativeLayout>
+
+
+
